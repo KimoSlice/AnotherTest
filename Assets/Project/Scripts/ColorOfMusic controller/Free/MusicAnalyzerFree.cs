@@ -18,7 +18,7 @@ public class MusicAnalyzerFree : MonoBehaviour {
     public float multiplyRed = 8.5f / 7;
     public float multiplyGreen = 1.7f / 5;
     public float multiplyBlue = 2.7f / 5;
-    private float spectrumMultiply = 1;
+    public float spectrumMultiply = 1;
 
     void Awake()
     {
@@ -56,7 +56,7 @@ public class MusicAnalyzerFree : MonoBehaviour {
         };
 
         audio.GetOutputData(spectrum, 0);
-        spectrumMultiply = 1 / audio.volume;
+        spectrumMultiply = spectrumMultiply / audio.volume;
     }
 
     private void UpdateColor()
