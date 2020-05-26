@@ -60,7 +60,7 @@ public class PlateManager0 : MonoBehaviour
 
         if (placements == totalCorrectPlacementsNeed) //Update the UI board
         {
-            canvasText.text = currentCorrectPlacements.ToString();
+            currentCorrectPlacements.ToString();
         }
     }
 

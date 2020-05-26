@@ -1,16 +1,13 @@
-﻿
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-
-public class PlateManager2 : MonoBehaviour
+public class PlateManager3 : MonoBehaviour
 {
-
-    public static PlateManager2 instance;
+    public static PlateManager3 instance;
     [SerializeField]
     int totalCorrectPlacementsNeed; //This is the total number of boxes that needs to be placed correctly before the door will open.
     [SerializeField]
@@ -60,7 +57,7 @@ public class PlateManager2 : MonoBehaviour
 
         if (placements == totalCorrectPlacementsNeed) //Update the UI board
         {
-            canvasText.text = currentCorrectPlacements.ToString();
+            currentCorrectPlacements.ToString();
         }
     }
 
@@ -93,5 +90,4 @@ public class PlateManager2 : MonoBehaviour
     {
         currentCorrectPlacements--;
     }
-
 }

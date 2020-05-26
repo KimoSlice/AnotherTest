@@ -7,10 +7,10 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 
 
-public class PlateManager1 : MonoBehaviour
+public class PlateManager2 : MonoBehaviour
 {
 
-    public static PlateManager1 instance;
+    public static PlateManager2 instance;
     [SerializeField]
     int totalCorrectPlacementsNeed; //This is the total number of boxes that needs to be placed correctly before the door will open.
     [SerializeField]
