@@ -1486,7 +1486,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296294532}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1821,7 +1821,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344136594}
   m_LocalRotation: {x: -0, y: 0.9999919, z: -0, w: 0.0040265275}
-  m_LocalPosition: {x: 24.5, y: 2.25, z: 143}
+  m_LocalPosition: {x: 39.5, y: 2.25, z: 107.5}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 143449205}
@@ -3122,7 +3122,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh43932
+  m_Name: pb_Mesh17662
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9477,25 +9477,25 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 0.5
+      - m_Value: 0.23
         m_Name: LifeTime A
         m_Overridden: 1
-      - m_Value: 0.5
+      - m_Value: 0.22
         m_Name: LifeTimeB
         m_Overridden: 1
-      - m_Value: 0.06
+      - m_Value: 1.65
         m_Name: Intensity
         m_Overridden: 1
-      - m_Value: 0.7
+      - m_Value: 0.3
         m_Name: Drag
         m_Overridden: 1
-      - m_Value: 4.82
+      - m_Value: 5.82
         m_Name: Frequency
         m_Overridden: 1
-      - m_Value: 0.312
+      - m_Value: 0.149
         m_Name: Size
         m_Overridden: 1
-      - m_Value: 0.034
+      - m_Value: 0.116
         m_Name: Scale
         m_Overridden: 1
     m_Vector2f:
@@ -9508,7 +9508,7 @@ VisualEffect:
       m_Array: []
     m_Int:
       m_Array:
-      - m_Value: 5000
+      - m_Value: 10000
         m_Name: Number of Particles
         m_Overridden: 1
     m_Matrix4x4f:
@@ -9713,7 +9713,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 200
   m_Range: 50
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -11115,11 +11115,11 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 0.98039216, b: 0.627451, a: 1}
+  m_Intensity: 20
   m_Range: 10
-  m_SpotAngle: 106
-  m_InnerSpotAngle: 21.80208
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 19.548777
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -13881,9 +13881,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 60
+  m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
+  m_Intensity: 200
+  m_Range: 80
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -13939,7 +13939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732192199}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25, y: 12, z: 123}
+  m_LocalPosition: {x: 25, y: 13, z: 123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -14682,8 +14682,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.9747517, b: 0.5613208, a: 1}
-  m_Intensity: 3
+  m_Color: {r: 1, g: 0.9800371, b: 0.6273585, a: 1}
+  m_Intensity: 200
   m_Range: 62.03012
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -16016,7 +16016,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 200
   m_Range: 60
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
